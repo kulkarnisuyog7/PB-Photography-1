@@ -277,7 +277,7 @@ section {
   -----------------------------------------*/
 
 #home {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("res/images/cam3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cam3.jpg");
     background-size: cover;
     background-position: center;
     display: -webkit-flex;
@@ -480,4 +480,56 @@ section {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.2px;
+}
+
+/*---------------------------------------
+      CONTACTS             
+-----------------------------------------*/
+
+#contact {
+    background: #00F260;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #F95649);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #F95649);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 25px;
+}
+
+#contact .section-title h2 {
+    color: #ffffff;
+}
+
+.google-map {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.google-map iframe {
+    border: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#contact .form-control {
+    border: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    color: rgba(20, 20, 20, 0.5);
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-left: 8px;
+}
+
+#contact input,
+#contact select {
+    height: 55px;
+}
+
+#contact select {
+    color: rgba(20, 20, 20, 0.5);
 }
